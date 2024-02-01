@@ -4116,7 +4116,10 @@ header.header-fixed .video-play-button.theme:after {
 /* ============================================================== 
      # Gallery 
 =================================================================== */
-
+.magnific-mix-gallery .pf-item img {
+    height: 200px; /* Adjust the height as needed */
+    width: 100%; /* Ensures the image fills the container */
+}
 .gallery-area .magnific-mix-gallery {
 	margin: -15px;
 }
